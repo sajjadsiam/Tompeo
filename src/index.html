@@ -1,262 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <title>Pompeo</title>
-</head>
-<body>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-
-                           <!-- Navbar Start Here https://pompeo.webflow.io/contact-us -->
-<nav class="flex justify-between items-center py-4 px-10 bg-white shadow-md fixed top-0 left-0 w-full z-1000">
-  <div class="text-3xl font-bold text-black">
-      <a href="#" class="flex items-center" aria-label="Homepage">
-          <span class="font-handwritten">Pompeo</span>
-      </a>
-  </div>
-  <div class="flex justify-between items-center gap-8">
-      <ul class="flex gap-10">
-          <li><a href="index.html" class="text-red-500 font-semibold" aria-label="Go to Home">Home</a></li>
-          <li><a href="about-us.html" class="text-gray-600 hover:text-red-500" aria-label="Learn more about us">About</a></li>
-          <li><a href="shop.html" class="text-gray-600 hover:text-red-500" aria-label="Shop our products">Shop</a></li>
-          <li><a href="contact-us.html" class="text-gray-600 hover:text-red-500" aria-label="Contact us">Contact</a></li>
-      </ul>
-      <div class="flex items-center border-l-2 border-gray-300 pl-4">
-          <a href="#" class="flex items-center gap-2 text-gray-600 hover:text-red-500" aria-label="View cart">
-              <i class='bx bx-cart text-2xl hover:text-red-500'></i>
-              <span>Cart</span>
-          </a>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tompeo</title>
+  </head>
+  <body>
+    <!-- Navbar Start Here -->
+    <nav
+      class="flex justify-between items-center py-4 px-10 bg-white shadow-md fixed top-0 left-0 w-full z-1000"
+    >
+      <div class="text-3xl font-bold text-black">
+        <a href="#" class="flex items-center" aria-label="Homepage">
+          <span class="font-handwritten">Tompeo</span>
+        </a>
       </div>
-  </div>
-</nav>
-
-                            <!-- Navbar End Here-->
-
-
-
-
-                    <!-- .......................Hero Section Start Here...............-->
-
-
-
-                    <div class="flex justify-between items-center h-screen bg-gray-100 px-10">
-                      <!-- Text Section -->
-                      <div class="max-w-lg">
-                          <h4 class="text-red-400 uppercase font-semibold mb-2">Pompeo Pottery</h4>
-                          <h1 class="text-5xl font-bold mb-4">Unique Porcelain <span class="text-red-500">&</span> Stone Collection</h1>
-                          <p class="text-gray-500 mb-8">Unique & modern pottery made by our master in porcelain & stones</p>
-                          <button class="px-6 py-3 bg-red-600 text-white font-semibold hover:bg-red-700 transition duration-300">Shop Collection</button>
-                      </div>
-                  
-                      <!-- Image Section -->
-                      <div>
-                          <img src="img/hero-image.png" alt="Pottery Collection" class="w-[44.8rem] h-auto">
-                      </div>
-                  </div>
-                  
-
-                     <!-- ....................Hero Section End Here....................-->
-    
-                     <section class="bg-white py-12 mt-16" id="pottery">
-                      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                          <div class="text-center">
-                              <h2 class="text-base text-red-500 font-semibold tracking-wide uppercase">Our online store</h2>
-                              <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Explore Our Unique Pottery</p>
-                              <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">A carefully curated selection of unique and handcrafted pottery pieces to enhance your home decor.</p>
-                          </div>
-                  
-                          <!-- Product Grid -->
-                          <div class="mt-10 grid grid-cols-1 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
-                              <!-- Orange Ceramic -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image2.png" alt="Handcrafted orange ceramic vase" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Orange Ceramic</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$55.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Stoneware</p>
-                              </div>
-                  
-                              <!-- Dark Bowl -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image3.png" alt="Elegant dark ceramic bowl" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Dark Bowl</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$115.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Porcelain</p>
-                              </div>
-                  
-                              <!-- Square Pottery -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image4.png" alt="Square decorative pottery" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Square Pottery</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$75.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Earthenware</p>
-                              </div>
-                  
-                              <!-- Decor Plate 1 -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image5.png" alt="Floral decorative plate" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Decor Plate 1</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Stoneware</p>
-                              </div>
-                  
-                              <!-- Decor Plate 2 -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image6.png" alt="Elegant decorative plate" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Decor Plate 2</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Porcelain</p>
-                              </div>
-                  
-                              <!-- Decor Plate 3 -->
-                              <div class="">
-                                  <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80">
-                                      <img src="img/image7.png" alt="Artistic decorative plate" class="w-full h-full object-center object-cover">
-                                  </div>
-                                  <h3 class="mt-4 text-lg font-medium text-gray-900">Decor Plate 3</h3>
-                                  <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
-                                  <p class="mt-1 text-sm text-gray-400">Material: Earthenware</p>
-                              </div>
-                          </div>
-                  
-                          <!-- Button -->
-                          <div class="mt-12 text-center">
-                              <a href="/all-products" class="inline-block bg-red-600 text-white py-3 px-8 rounded-md text-lg font-medium hover:bg-red-700">View All Products</a>
-                          </div>
-                      </div>
-                  </section>
-                  
-
-
-
-
-
-<section class="bg-cover bg-center py-20" style="background-image: url('img/image1.jpeg');">
-    <div class="inset-0 bg-gradient-to-r from-white to-white opacity-80"></div> <!-- Gradient Overlay -->
-    <div class="container mx-auto text-center md:text-left"> <!-- Ensure content appears above the overlay -->
-        <div class=" p-8  inline-block md:w-1/2">
-            <h2 class="text-red-400 tracking-wide uppercase text-sm">Pompeo Pottery</h2>
-            <h1 class="text-4xl font-bold mt-2">Ready to start shopping?</h1>
-            <p class="mt-4 text-gray-700">
-                Lorem ipsum dolor sit amet, 
-                <a href="#" class="text-red-500 underline">consectetur adipiscing elit</a>. 
-                Suspendisse varius enim in eros elementum.
-            </p>
-            <button class="mt-6 bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition">
-                New Collection
-            </button>
+      <div class="flex justify-between items-center gap-8">
+        <ul class="flex gap-10">
+          <li>
+            <a
+              href="index.html"
+              class="text-red-500 font-semibold"
+              aria-label="Go to Home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="about-us.html"
+              class="text-gray-600 hover:text-red-500"
+              aria-label="Learn more about us"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="shop.html"
+              class="text-gray-600 hover:text-red-500"
+              aria-label="Shop our products"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact-us.html"
+              class="text-gray-600 hover:text-red-500"
+              aria-label="Contact us"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="flex items-center border-l-2 border-gray-300 pl-4">
+          <a
+            href="#"
+            class="flex items-center gap-2 text-gray-600 hover:text-red-500"
+            aria-label="View cart"
+          >
+            <i class="bx bx-cart text-2xl hover:text-red-500"></i>
+            <span>Cart</span>
+          </a>
         </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="flex justify-between items-center h-screen bg-gray-100 px-10">
+      <div class="max-w-lg">
+        <h4 class="text-red-400 uppercase font-semibold mb-2">
+          Tompeo Pottery
+        </h4>
+        <h1 class="text-5xl font-bold mb-4">
+          Unique Porcelain <span class="text-red-500">&</span> Stone Collection
+        </h1>
+        <p class="text-gray-500 mb-8">
+          Unique & modern pottery made by our master in porcelain & stones
+        </p>
+        <button
+          class="px-6 py-3 bg-red-600 text-white font-semibold hover:bg-red-700 transition duration-300"
+        >
+          Shop Collection
+        </button>
+      </div>
+
+      <div>
+        <img
+          src="img/hero-image.png"
+          alt="Pottery Collection"
+          class="w-[44.8rem] h-auto"
+        />
+      </div>
     </div>
-</section>
 
+    <!-- Store Section -->
+    <section class="bg-white py-12 mt-16" id="pottery">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2
+            class="text-base text-red-500 font-semibold tracking-wide uppercase"
+          >
+            Our online store
+          </h2>
+          <p
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Explore Our Unique Pottery
+          </p>
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            A carefully curated selection of unique and handcrafted pottery
+            pieces to enhance your home decor.
+          </p>
+        </div>
 
+        <div
+          class="mt-10 grid grid-cols-1 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 gap-x-8"
+        >
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image2.png"
+                alt="Handcrafted orange ceramic vase"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">
+              Orange Ceramic
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">$55.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Stoneware</p>
+          </div>
 
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image3.png"
+                alt="Elegant dark ceramic bowl"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">Dark Bowl</h3>
+            <p class="mt-1 text-sm text-gray-500">$115.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Porcelain</p>
+          </div>
 
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image4.png"
+                alt="Square decorative pottery"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">
+              Square Pottery
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">$75.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Earthenware</p>
+          </div>
 
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image5.png"
+                alt="Floral decorative plate"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">
+              Decor Plate 1
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Stoneware</p>
+          </div>
 
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image6.png"
+                alt="Elegant decorative plate"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">
+              Decor Plate 2
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Porcelain</p>
+          </div>
 
+          <div class="">
+            <div
+              class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden transition-opacity duration-300 group-hover:opacity-75 lg:h-80"
+            >
+              <img
+                src="img/image7.png"
+                alt="Artistic decorative plate"
+                class="w-full h-full object-center object-cover"
+              />
+            </div>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">
+              Decor Plate 3
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">$65.00 USD</p>
+            <p class="mt-1 text-sm text-gray-400">Material: Earthenware</p>
+          </div>
+        </div>
 
+        <div class="mt-12 text-center">
+          <a
+            href=""
+            class="inline-block bg-red-600 text-white py-3 px-8 rounded-md text-lg font-medium hover:bg-red-700"
+            >View All Products</a
+          >
+        </div>
+      </div>
+    </section>
 
+    <!-- Collection Section -->
 
+    <section
+      class="bg-cover bg-center py-20"
+      style="background-image: url('img/image1.jpeg')"
+    >
+      <div
+        class="inset-0 bg-gradient-to-r from-white to-white opacity-80"
+      ></div>
 
+      <div class="container mx-auto text-center md:text-left">
+        <div class="p-8 inline-block md:w-1/2">
+          <h2 class="text-red-400 tracking-wide uppercase text-sm">
+            Tompeo Pottery
+          </h2>
+          <h1 class="text-4xl font-bold mt-2">Ready to start shopping?</h1>
+          <p class="mt-4 text-gray-700">
+            Lorem ipsum dolor sit amet,
+            <a href="#" class="text-red-500 underline"
+              >consectetur adipiscing elit</a
+            >. Suspendisse varius enim in eros elementum.
+          </p>
+          <button
+            class="mt-6 bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition"
+          >
+            New Collection
+          </button>
+        </div>
+      </div>
+    </section>
 
+    <!-- Newsletter Section -->
+    <section class="bg-gray-100 py-12">
+      <div class="container mx-auto text-center">
+        <div class="mb-8">
+          <div class="flex justify-center">
+            <div class="bg-yellow-400 rounded-full p-4">
+              <i class="bx bx-paper-plane text-white text-4xl"></i>
+            </div>
+          </div>
+          <h2 class="text-red-400 tracking-wide uppercase text-sm mt-4">
+            Latest News
+          </h2>
+          <h1 class="text-4xl font-bold">
+            Latest news <span class="text-red-500">&</span> New updates
+          </h1>
+        </div>
 
-                      <section class="bg-gray-100 py-12">
-                        <div class="container mx-auto text-center">
-                            <!-- Icon and Section Title -->
-                            <div class="mb-8">
-                                <div class="flex justify-center">
-                                    <div class="bg-yellow-400 rounded-full p-4">
-                                        <i class="bx bx-paper-plane text-white text-4xl"></i> <!-- Use any preferred paper-plane icon -->
-                                    </div>
-                                </div>
-                                <h2 class="text-red-400 tracking-wide uppercase text-sm mt-4">Latest News</h2>
-                                <h1 class="text-4xl font-bold">Latest news <span class="text-red-500">&</span> New updates</h1>
-                            </div>
-                    
-                            <!-- Newsletter Form -->
-                            <form class="flex justify-center gap-2 mt-6 max-w-lg mx-auto">
-                                <input type="email" placeholder="Enter your email" 
-                                       class="p-4 rounded-lg border border-gray-300 w-full focus:outline-none focus:ring-2 focus:ring-gray-400">
-                                <button type="submit" 
-                                        class="bg-black text-white py-4 px-8 rounded-lg font-semibold hover:bg-gray-900">SUBSCRIBE</button>
-                            </form>
-                    
-                            <!-- Checkbox for Newsletter -->
-                            <div class="mt-4 flex justify-center items-center text-gray-600">
-                                <input type="checkbox" id="newsletter" class="mr-2">
-                                <label for="newsletter" class="text-sm">Sign up for our newsletter</label>
-                            </div>
-                        </div>
-                    </section>
-                    
+        <form class="flex justify-center gap-2 mt-6 max-w-lg mx-auto">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="p-4 rounded-lg border border-gray-300 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
+          />
+          <button
+            type="submit"
+            class="bg-black text-white py-4 px-8 rounded-lg font-semibold hover:bg-gray-900"
+          >
+            SUBSCRIBE
+          </button>
+        </form>
 
+        <div class="mt-4 flex justify-center items-center text-gray-600">
+          <input type="checkbox" id="newsletter" class="mr-2" />
+          <label for="newsletter" class="text-sm"
+            >Sign up for our newsletter</label
+          >
+        </div>
+      </div>
+    </section>
 
+    <!-- Footer Section -->
+    <footer class="bg-white py-12">
+      <div class="container mx-auto text-center">
+        <div class="mb-10">
+          <h1 class="font-bold text-4xl">Tompeo</h1>
+          <p class="mt-2 text-gray-500">
+            I have always striven to fix beauty in wood, stone, glass or
+            pottery, that has been my creed.
+          </p>
+        </div>
 
+        <div class="flex justify-center gap-20">
+          <div class="flex flex-col items-center">
+            <i class="bx bx-envelope text-3xl mb-2"></i>
 
+            <p class="font-semibold">EMAIL</p>
+            <p class="text-gray-500">sajjadsiam@yahoo.com</p>
+          </div>
 
+          <div class="flex flex-col items-center">
+            <i class="bx bx-map-pin text-3xl mb-2"></i>
 
+            <p class="font-semibold">FIND</p>
+            <p class="text-gray-500">Talaimari,<br />Rajshahi</p>
+          </div>
 
+          <div class="flex flex-col items-center">
+            <i class="bx bx-phone text-3xl mb-2"></i>
 
+            <p class="font-semibold">CALL</p>
+            <p class="text-gray-500">+8801787912976</p>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-                      <footer class="bg-white py-12">
-                        <div class="container mx-auto text-center">
-                            <!-- Logo and Slogan -->
-                            <div class="mb-10">
-                                <h1 class="font-bold text-4xl">Pompeo</h1>
-                                <p class="mt-2 text-gray-500">I have always striven to fix beauty in wood, stone, glass or pottery, that has been my creed.</p>
-                            </div>
-                    
-                            <!-- Contact Information -->
-                            <div class="flex justify-center gap-20">
-                                <!-- Email -->
-                                <div class="flex flex-col items-center">
-                                    <i class='bx bx-envelope text-3xl mb-2'></i> <!-- Use any preferred email icon -->
-                                    <p class="font-semibold">EMAIL</p>
-                                    <p class="text-gray-500">sajjadsiam@yahoo.com</p>
-                                </div>
-                    
-                                <!-- Location -->
-                                <div class="flex flex-col items-center">
-                                    <i class='bx bx-map-pin text-3xl mb-2'></i> <!-- Use any preferred location icon -->
-                                    <p class="font-semibold">FIND</p>
-                                    <p class="text-gray-500">Talaimari,<br>Rajshahi</p>
-                                </div>
-                    
-                                <!-- Call -->
-                                <div class="flex flex-col items-center">
-                                    <i class='bx bx-phone text-3xl mb-2'></i> <!-- Use any preferred phone icon -->
-                                    <p class="font-semibold">CALL</p>
-                                    <p class="text-gray-500">+8801787912976</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="mt-12 text-center text-gray-400 text-sm">
-                          Design by <a href="https://www.linkedin.com/in/sajjadsiam" target="_blank" class="text-red-500 hover:underline">Sajjad Siam</a>
-                      </div>
-                    </footer>
-                    
-
-</body>
+      <div class="mt-12 text-center text-gray-400 text-sm">
+        Design by
+        <a
+          href="https://www.linkedin.com/in/sajjadsiam"
+          target="_blank"
+          class="text-red-500 hover:underline"
+          >Sajjad Siam</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
